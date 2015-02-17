@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Tamas Lang
+tagline:          'A Jekyll theme'
+description:      'Repositories: <a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>Profile: <a href="uk.linkedin.com/in/tamaslang" target="_blank">LinkedIn</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
