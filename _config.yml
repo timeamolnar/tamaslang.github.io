@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Tamas Lang
 tagline:          'A Jekyll theme'
-description:      'Repositories: <a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>Profile: <a href="uk.linkedin.com/in/tamaslang" target="_blank">LinkedIn</a>.'
+description:      'Repositories: <a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>Profile: <a href="https://uk.linkedin.com/in/tamaslang" target="_blank">LinkedIn</a>.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
