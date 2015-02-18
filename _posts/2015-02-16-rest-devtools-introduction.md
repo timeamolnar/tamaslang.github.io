@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developer Tools for Spring (Boot) based Rest applications!
+title: Developer Tools for Spring based Rest applications!
 ---
 
 As I have been developing Spring based applications for a while now and I realised that I have a bunch of common classes and solutions which I reusing across multiple projects.
