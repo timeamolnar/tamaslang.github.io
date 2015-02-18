@@ -17,7 +17,7 @@ Without going into details in this blog-entry here is a list of the areas where 
 * Constants, profileConstants<br/>
 * Domain entity parent classes<br/>
 * Rest exception handling and resolving it to common ErrorDTO<br/>
-* Gateway (external Rest calls) exception handling and resolve it to ErrorDTO<br/>
+* Gateway (external Rest calls) exception handling and resolve it to a common ErrorDTO<br/>
 
 That's for introduction, details will come in separate posts. If you are keen to see what the rest-devtools provides, go to the github repo and clone the project.
 In the test folder you'll find a full functioning test application using the library.
