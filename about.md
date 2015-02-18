@@ -4,7 +4,10 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example.
+  Talang Soft Limited.
 </p>
 
-Thanks for reading!
+<strong>Repositories: </strong><a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>
+<strong>Profile: </strong><a href="https://uk.linkedin.com/in/tamaslang" target="_blank">LinkedIn</a>.
+
+Thanks for visiting!
