@@ -11,10 +11,10 @@ It proved to bethe most beneficial when I developed small micro-service Spring b
 
 Without going into details in this blog-entry here is a list of the areas where the rest-devtools library offers solutions:<br/>
 
-* Logging, converting object to it's string representation<br/>
+* Logging, converting object to it's String representation<br/>
 * Logging, define logger for components by interface default method.<br/>
 * Interfaces, Indentifiable, CreatedTrackable, etc.<br/>
-* Constants, profileConstants<br/>
+* Constants, ProfileConstants<br/>
 * Domain entity parent classes<br/>
 * Rest exception handling and resolving it to common ErrorDTO<br/>
 * Gateway (external Rest calls) exception handling and resolve it to a common ErrorDTO<br/>
