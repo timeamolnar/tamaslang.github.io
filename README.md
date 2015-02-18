@@ -1,4 +1,5 @@
 <a href="http://tamaslang.github.io/">Go to the Blog</a>
+<br/>
 Blog based on Jekyll and Hyde
 # Hyde
 
