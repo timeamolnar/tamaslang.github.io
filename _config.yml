@@ -8,14 +8,14 @@ relative_permalinks: true
 
 # Setup
 title:            Tamas Lang
-tagline:          'A Jekyll theme'
+tagline:          ''
 description:      'Repositories: <a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>Profile: <a href="https://uk.linkedin.com/in/tamaslang" target="_blank">LinkedIn</a>.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Tamas Lang'
+  url:
 
 paginate:         5
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/tamaslang
