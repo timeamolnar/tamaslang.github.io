@@ -7,7 +7,7 @@ I have been developing Spring based applications for a while now and I realised 
 For these common things I created a library, named <strong>rest-devtools</strong>.
 Find it on <a href="https://github.com/tamaslang/rest-devtools" target="_blank">github</a>
 
-It proved to bethe most beneficial when I developed small micro-service Spring boot modules where I didn't want to duplicated code and I also wanted some kind of consistency and standardisation regarding error handling, naming, logging, etc.
+It proved to be the most beneficial when I developed small micro-service Spring boot modules where I didn't want to duplicated code and I also wanted some kind of consistency and standardisation regarding error handling, naming, logging, etc.
 
 Without going into details in this blog-entry here is a list of the areas where the rest-devtools library offers solutions:<br/>
 
