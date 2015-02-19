@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Talang Soft Limited.
+  Talang Soft Limited
 </p>
 
 <strong>Repositories: </strong><a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>
