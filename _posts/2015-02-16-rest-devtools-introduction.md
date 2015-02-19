@@ -3,7 +3,7 @@ layout: post
 title: Developer Tools for Spring based Rest applications
 ---
 
-As I have been developing Spring based applications for a while now and I realised that I have a bunch of common classes and solutions which I reusing across multiple projects.
+I have been developing Spring based applications for a while now and I realised that I have a bunch of common classes and solutions I keep reusing across multiple projects.
 For these common things I created a library, named <strong>rest-devtools</strong>.
 Find it on <a href="https://github.com/tamaslang/rest-devtools" target="_blank">github</a>
 
