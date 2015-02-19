@@ -36,6 +36,7 @@ bookToBookDTO.apply(aBookEntity);
 // Map a list:
 aBookEntityList.stream().map(bookToBookDTO).collect(Collectors.toList());
 ```
+That's it.
 
 In certain cases libraries like <a href="http://dozer.sourceforge.net/" target ="_blank">Dozer</a> or <a href="http://modelmapper.org/" target="_blank">modelmapper</a> can be helpful; the second one
 will be introduced in an upcoming post.
