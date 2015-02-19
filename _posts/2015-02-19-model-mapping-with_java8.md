@@ -37,7 +37,7 @@ bookToBookDTO.apply(aBookEntity);
 aBookEntityList.stream().map(bookToBookDTO).collect(Collectors.toList());
 ```
 
-In certain cases libraries like <a href="http://dozer.sourceforge.net/" target ="_blank">Dozer</a> or <a href="http://modelmapper.org/" target="_blank">modelmapper</a> can be helpful.<br/>
-In one of the upcoming posts I will introduce <a href="http://modelmapper.org/" target="_blank">modelmapper</a> as an option.
+In certain cases libraries like <a href="http://dozer.sourceforge.net/" target ="_blank">Dozer</a> or <a href="http://modelmapper.org/" target="_blank">modelmapper</a> can be helpful; the second one
+will be introduced in an upcoming post.
 
 T.
