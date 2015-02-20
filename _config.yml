@@ -14,7 +14,7 @@ url:              http://talangsoft.org
 baseurl:          /
 
 author:
-  name:           'Talang Lang'
+  name:           'Tamas Lang'
   url:            http://talangsoft.org
 
 paginate:         5

@@ -29,11 +29,11 @@ private Function<Book,BookDTO> bookToBookDTO = new Function<Book, BookDTO>() {
 
 ## usage:
 ```java
-// Map one:
+// Map one entity:
 bookToBookDTO.apply(aBookEntity);
 ```
 ```java
-// Map a list:
+// Map a list of entities:
 aBookEntityList.stream().map(bookToBookDTO).collect(Collectors.toList());
 ```
 That's it.
