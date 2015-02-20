@@ -15,9 +15,6 @@ title: Collection of the week
 ### Your API is not usable without proper documentation. A nice tool to <strong>document your REST API</strong>:
 <a href="http://apidocjs.com/#demo" target="_blank">Apidoc JS</a>
 
-### Documenting <strong>software architecture</strong>:
-<a href="http://blog.jetbrains.com/idea/2015/02/webinar-recording-software-architecture-as-code/">Software Architecture as Code</a>
-
 ### The fun part of <strong>setting up a company</strong>, come up with a name:
 <a href="http://www.crunch.co.uk/startup-advice/2012/07/04/six-ways-to-come-up-with-a-great-company-name/" target="_target">How to come up with a company name</a>
 
