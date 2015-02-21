@@ -18,4 +18,4 @@ title: About
 
 <strong>Profile: </strong><a href="https://uk.linkedin.com/in/tamaslang" target="_blank">LinkedIn</a>.<br/>
 <strong>Repositories: </strong><a href="https://github.com/tamaslang" target="_blank">Github</a>.<br/>
-<strong>Contact me: </strong><a href="javascript:linkTo_UnCryptMailto('nbjmup;ubnbt/mbohAubmbohtpgu/psh');">tamas [dot] lang [at] talangsoft [dot] org</a>
+<strong>Contact: </strong><a href="javascript:linkTo_UnCryptMailto('nbjmup;ubnbt/mbohAubmbohtpgu/psh');">tamas [dot] lang [at] talangsoft [dot] org</a>
