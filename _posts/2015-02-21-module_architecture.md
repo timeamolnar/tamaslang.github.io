@@ -51,6 +51,8 @@ public class BookResource implements Loggable{
         return bookService.findByIsbn(isbn);
     }
 
+    /** more endpoint definitions **/
+
 }
 ```
 
@@ -98,6 +100,8 @@ public class BookServiceImpl implements Loggable, BookService {
         return bookToBookDTO.apply(retrievedBook);
 
     }
+
+    /** more service definition **/
 
 }
 ```
