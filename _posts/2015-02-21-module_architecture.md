@@ -180,10 +180,10 @@ public class Book {
 
 ## Summary
 In this blog you saw a possible modularisation and layering of a simple application with Spring boot.
-There are many different ways to structure an app, some would not define service interface,
+There are many different ways to structure an app, some people would not define service interface,
 some might access the repository directly from the resource layer
 or even not converting from JPA entity to another model (DTO) at all (I would not recommend that though).
-This is just a way I did, and usually it worked for me well, especially when a module started to grow.
+This is just a way I structure it, and usually it works well for me, especially when a module starting to grow.
 
 In an upcoming post I will go into details of behaviour driven testing of the book inventory endpoints.
 
