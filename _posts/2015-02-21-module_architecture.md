@@ -11,7 +11,7 @@ language, platform and technology independence for different components, distinc
 and increased architectural flexibility.<br/>
 (From: <a href="http://www.martinfowler.com/articles/microservice-testing/#definition" target="_blank">Martin Fowler:    microservice testing</a>).
 
-![placeholder](./assets/module_architecture.png "Module Architecture")
+![placeholder]({{ site.url }}/assets/module_architecture.png "Module Architecture")
 
 ## Book Inventory app
 The Spring implementation is presented in a minimalist book inventory app.
@@ -25,7 +25,7 @@ The book inventory app relies on my rest-devtools library,
 mentioned in a previous <a href="2015/02/16/rest-devtools-introduction/" target="_blank">blog post</a>.<br/>
 Classes, Interfaces like Loggable, DTO, CommonGateway are all coming from the library.
 
-![placeholder](./assets/book_inventory_app.png "Book inventory")
+![placeholder]({{ site.url }}/assets/book_inventory_app.png "Book inventory")
 
 The layers presented in the module architecture present in the Spring application as the following:
 

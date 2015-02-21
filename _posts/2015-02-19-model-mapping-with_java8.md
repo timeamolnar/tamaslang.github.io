@@ -11,7 +11,7 @@ We all have seen some examples where some couldn't find a good balance and devel
 But having too many layers/abstractions usually result wasting hours on "get and set" and what is worse as a result of mapping significant number of the bugs will be about certain data not displayed/saved.
 
 The following image from <a href="http://geek-and-poke.com/geekandpoke/2013/7/13/foodprints" target="_blank">geek &amp; poke</a> describes the problem well.
-![placeholder](/assets/footprints2.jpg "Good Architect leaves a footprint")
+![placeholder]({{ site.url }}/assets/footprints2.jpg "Good Architect leaves a footprint")
 
 A good trade-off can be that you have a data domain layer, e.g. JPA annotated data entities and a DTO layer which is how you represent the data to the outside world.<br/>
 Data domain can have multiple DTO representation depending the functionality.
