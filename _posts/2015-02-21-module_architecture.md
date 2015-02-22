@@ -125,14 +125,33 @@ public interface BookRepository extends JpaRepository<Book,String> {
 
 ## Domain:
 Our domain is the one we are revealing via the Rest services. A book might have several representation,
-this one is a book summary which just contains soma basic data.
+this one is a book summary immutable object which just contains some basic data.
 
 ```java
 public class BookDTO extends DTO{
     private String isbn;
     private String title;
     private String author;
-    /*..*/
+
+    @JsonCreator
+    public BookDTO(@JsonProperty("isbn") String isbn,@JsonProperty("title") String title,@JsonProperty("author") String author) {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
 }
 ```
 
@@ -158,7 +177,7 @@ public class IsbnGateway extends GatewayCommon {
 ```
 
 ## Data mapping (ORM):
-Rhe data mapping contains a plain JPA annotated class representing a book and using isbn as id.
+The data mapping contains a plain JPA annotated class representing a book and using isbn as id.
 
 ```java
 @Entity
