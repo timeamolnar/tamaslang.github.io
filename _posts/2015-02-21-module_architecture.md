@@ -126,7 +126,7 @@ public interface BookRepository extends JpaRepository<Book,String> {
 ## Domain:
 Having a small module we can afford our inner domain to be also what we are exposing via the Rest services.
 A book entity might anyway have several representations, let's say this one is a book summary containing only some basic data.<br/>
-Implemented as an immutable data object;
+Implemented as an immutable data object.
 
 ```java
 public class BookDTO extends DTO{
@@ -135,7 +135,9 @@ public class BookDTO extends DTO{
     private String author;
 
     @JsonCreator
-    public BookDTO(@JsonProperty("isbn") String isbn,@JsonProperty("title") String title,@JsonProperty("author") String author) {
+    public BookDTO(@JsonProperty("isbn") String isbn,
+                   @JsonProperty("title") String title,
+                   @JsonProperty("author") String author) {
         this.isbn = isbn;
         this.title = title;
         this.author = author;
