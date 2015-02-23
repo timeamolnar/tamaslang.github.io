@@ -14,7 +14,7 @@ It might be a cleaner way than plain null-checks, but in fact it didn't convince
   It is not possible to write a method that takes either an X or an Optional&lt;X&gt;.
 </p></blockquote>
 
-See other aspects in a detailed criticism: <a href="https://www.voxxed.com/blog/2015/01/embracing-void-6-refined-tricks-dealing-nulls-java/" target="_blank">Do not use Optional</a>
+See a detailed criticism: <a href="https://www.voxxed.com/blog/2015/01/embracing-void-6-refined-tricks-dealing-nulls-java/" target="_blank">Do not use Optional</a>
 
 So I decided <strong>not to use</strong> Optional in any of my code, but then I came across a
 <a href="http://spring.io/blog/2015/01/14/springone2gx-2014-replay-spring-framework-on-java-8" target="_blank">webinar</a>
@@ -46,7 +46,7 @@ public class CountryResourceImpl implements CountryResource {
         String langValue = lang.orElse(DEFAULT_LANG);
 
         // notification service, notify if service is present
-        notificationService.ifPresent((service) -> {service.eventOccured("...");} );  
+        notificationService.ifPresent((service) -> {service.eventOccured("...");} );
     }
 }
 ```
