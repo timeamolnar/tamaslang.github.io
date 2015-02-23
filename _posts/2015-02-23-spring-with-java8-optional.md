@@ -46,7 +46,7 @@ public class CountryResourceImpl implements CountryResource {
         String langValue = lang.orElse(DEFAULT_LANG);
 
         // notification service, notify if service is present
-        notificationService.ifPresent((service) -> {service.eventOccured("Language is " +lang);} );  /
+        notificationService.ifPresent((service) -> {service.eventOccured("...");} );  
     }
 }
 ```
