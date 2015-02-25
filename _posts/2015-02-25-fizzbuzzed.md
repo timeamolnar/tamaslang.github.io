@@ -35,7 +35,7 @@ public class FizzBuzzWithStreams {
         if (nr % 15 == 0) return "fizzbuzz";
         if (nr % 3 == 0) return "fizz";
         if (nr % 5 == 0) return "buzz";
-        return Long.toString(nr);
+        return Integer.toString(nr);
     }
 }
 ```
@@ -43,7 +43,7 @@ public class FizzBuzzWithStreams {
 Despite the simplicity of this coding task it is not only about the basic algorithm of the division
 but also to see how one structures and tests the code she writes.
 
-It is also becomes more interesting when you spice it up with new requirements:<br/>
+It becomes more interesting when you spice it up with some new requirements:<br/>
 - If the number contains a three you must output the text 'lucky'.<br/>
 - Produce a statistic at the end of the program showing how many times the following were output: fizz, buzz, fizzbuzz, lucky, an integer.
 
