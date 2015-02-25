@@ -45,7 +45,7 @@ but also to see how one structures and tests the code she writes.
 
 It becomes more interesting when you spice it up with some new requirements:<br/>
 - If the number contains a three you must output the text 'lucky'.<br/>
-- Produce a statistic at the end of the program showing how many times the following were output: fizz, buzz, fizzbuzz, lucky, an integer.
+- Produce statistics at the end of the program showing how many times the following were output: fizz, buzz, fizzbuzz, lucky, an integer.
 
 Check out my <a href="https://github.com/tamaslang/codingtest-fizzbuzz">github repository</a> to see the spiced up version
 with proper testing and code structuring;<br/>
