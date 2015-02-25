@@ -39,7 +39,7 @@ public class FizzBuzzWithStreams {
 }
 ```
 
-Despite the simplicity of this coding task it is not only about the basic algorithm of the division logic
+Despite the simplicity of this coding task it is not only about the basic algorithm of the division
 but also to see how one structures and tests the code she writes.
 
 It is also becomes more interesting when you spice it up with new requirements:<br/>
