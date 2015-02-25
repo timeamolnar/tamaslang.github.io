@@ -52,3 +52,5 @@ with proper testing and code structuring;<br/>
 A good friend of mine wrote <a href="http://benedekfazekas.github.io/2015/02/06/java8-fizzbuzzed/">a good comparison</a> between java 8 and clojure solutions.<br/>
 Finally if you haven't already solved this problem, try yourself c|;-)
 
+Cheers,
+T.
