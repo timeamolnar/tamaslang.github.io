@@ -4,11 +4,14 @@ title: Microservice Module Architecture with Spring boot
 ---
 
 ## Microservice modules
-
+<blockquote>
+<p>
 A microservice architecture is the natural consequence of applying the single responsibility principle at the architectural level.<br/>
 This results in a number of benefits over a traditional monolithic architecture such as independent deployability,
 language, platform and technology independence for different components, distinct axes of scalability
-and increased architectural flexibility.<br/>
+and increased architectural flexibility.
+</p>
+</blockquote>
 (From: <a href="http://www.martinfowler.com/articles/microservice-testing/#definition" target="_blank">Martin Fowler:    microservice testing</a>).
 
 ![placeholder]({{ site.url }}/assets/module_architecture.png "Module Architecture")
