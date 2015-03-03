@@ -44,7 +44,7 @@ It proved to be really useful in the following topics:
 
 ### Integration test
 In the integration tests it needs to be verified that all of the code works correctly,
-all of the combined code units work well in their environment, the system is ready to be integrated
+all of the combined code units work well in their environment and the system is ready to be integrated
 with external systems and resources.<br/>
 The external connections should be mocked for these tests to cut the dependencies and to avoid side effects of the tests.<br/>
 I reuse the component structure <a href="{{ site.url }}//2015/02/21/module_architecture/" target="_blank">from the previous post</a> to show the mocked components with orange:
