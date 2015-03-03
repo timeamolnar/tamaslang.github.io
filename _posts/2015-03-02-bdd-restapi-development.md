@@ -56,7 +56,7 @@ Defining a REST API as application interface is what everybody is doing nowadays
     <li>simplifies a very complex functionality around resources</li>
     <li>reduces client server coupling</li>
     <li>provides stateless communication</li>
-    <li>easy to use / implement</li>
+    <li>is easy to use / implement</li>
     <li>etc...</li>
 </ul>
 
