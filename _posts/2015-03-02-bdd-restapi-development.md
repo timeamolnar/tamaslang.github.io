@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Behaviour driven rest API development with Spring
+title: Behaviour driven REST API development with Spring
 tags:
 - cucumber
 - gherkin
 - springboot
 - java
-- rest API
+- REST API
 ---
 ### The case
 Bob was sitting desperately in front of a huge amount of JUnit code intended to test the part he just refactored.<br/>
@@ -51,7 +51,7 @@ I reuse the component structure <a href="{{ site.url }}//2015/02/21/module_archi
 ![placeholder]({{ site.url }}/assets/integration_testing.png "Integration Testing")
 
 ### Rest API
-Defining a rest API as application interface is what everybody do nowadays as it comes with certain benefits:
+Defining a REST API as application interface is what everybody do nowadays as it comes with certain benefits:
 <ul>
     <li>simplify a very complex functionality around resources</li>
     <li>reduce client server coupling</li>
@@ -60,15 +60,15 @@ Defining a rest API as application interface is what everybody do nowadays as it
     <li>etc...</li>
 </ul>
 
-As every interface the provided Rest interface will be the one which determines the behaviour of the application towards a consumer.
+As the provided REST interface will be the one which determines the behaviour of the application towards a consumer.
 
 So why not BDD it?
 
 ## Example in book inventory app
 For my example <a href="https://github.com/tamaslang/book-inventory-boot" target="_blank">book inventory app</a> I implemented automatic behaviour driven tests
- to verify the rest APIs in a full application context embedded into Spring's
+ to verify the REST APIs in a full application context embedded into Spring's
 <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/testing.html#spring-mvc-test-framework" target="_blank">Mock MVC</a>.<br/>
-In the tests I set up a full application context but I mock the RestTemplate to cut external service calls and I use an in memory (hsql) db.
+I set up a full application context but mocked the RestTemplate to cut external service calls and used an in memory (hsql) db.
 
 Under the hood <a href="https://cukes.info/" target="_blank">Cucumber</a> library provides the framework for defining the expected behaviour.
 The testcases are using Cucumber's plain text DSL:
@@ -93,7 +93,7 @@ public class BookInventoryIntegrationTest {
 }
 ```
 
-Common step definitions are defined to verify the rest calls in <strong>CommonRestCallStepDefs.java</strong>.
+Common step definitions are defined to verify the REST calls in <strong>CommonRestCallStepDefs.java</strong>.
 
 ```java
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -152,7 +152,7 @@ public class APITest {
 }
 ```
 
-## Rest API testcase definitions
+## REST API testcase definitions
 
 The testcases for the Book inventory resource are defined in the <strong>BookInventoryIntegrationTest.feature</strong> file.
 
@@ -284,8 +284,8 @@ The testcases for the Book inventory resource are defined in the <strong>BookInv
 ```
 
 ## Summary
-Behaviour driven integration testing of the Rest API helps in rapid application development, facilitates test driven and
-contract first interface design. Using the described approach makes it really quick to verify the Rest endpoints and application context set up.
+Behaviour driven integration testing of the REST API helps in rapid application development, facilitates test driven and
+contract first interface design. Using the described approach makes it really quick to verify the REST endpoints and application context set up.
 
 See the full source code of the example application <a href="https://github.com/tamaslang/book-inventory-boot" target="_blank">on my github </a>.
 
