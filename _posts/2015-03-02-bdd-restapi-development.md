@@ -287,7 +287,7 @@ The testcases for the book inventory resource are defined in the <strong>BookInv
 Behaviour driven integration testing of the REST API helps in rapid application development, facilitates test driven and
 contract first interface design. Using the described approach makes it really quick to verify the REST endpoints and application context set up.
 
-See the full source code of the example application <a href="https://github.com/tamaslang/book-inventory-boot" target="_blank">on my github </a>.
+See the full source code <a href="https://github.com/tamaslang/book-inventory-boot" target="_blank">on my github </a>.
 
 T.
 
