@@ -154,7 +154,7 @@ public class APITest {
 
 ## REST API testcase definitions
 
-The testcases for the Book inventory resource are defined in the <strong>BookInventoryIntegrationTest.feature</strong> file.
+The testcases for the book inventory resource are defined in the <strong>BookInventoryIntegrationTest.feature</strong> file.
 
 #### Test: Create a book
 ```gherkin
