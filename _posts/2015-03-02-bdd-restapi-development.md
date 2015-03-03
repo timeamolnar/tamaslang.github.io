@@ -79,9 +79,9 @@ Gherkin is a business readable, Domain Specfic DSL that lets you describe softwa
 </p>
 </blockquote>
 
-The REST API tests are located under src/test/rest/resources/bookinventory/integration folder as .feature files.
+The REST API tests are located under src/test/rest/resources/bookinventory/integration folder as .feature files.<br/>
 Running them are part of the JUnit execution that is hooked by BookInventoryIntegrationTest.java
-to execute all the feature files annotated with @restApiIntegration.
+to execute all the features annotated with @restApiIntegration.
 
 ```java
 @RunWith(Cucumber.class)
