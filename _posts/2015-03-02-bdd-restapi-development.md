@@ -15,7 +15,7 @@ somewhat different than "normal" Java:
 there is no need for code conventions, clean code, comments or whatever that could make the maintainer's life easier.<br/>
 
 Well, Bob spending the past twenty minutes of his life reverse engineering the code, silently looked around,
-realised that nobody is watching him and put a sad @Ignore annotation before a test.<br/>
+realised that nobody is watching him and put a sad @Ignore annotation before a test. 
 He was thinking about removing the tests, but he just didn't want to hurt the inner feelings of any fellow developer.
 
 ### BDD is here to help
