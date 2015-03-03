@@ -9,15 +9,14 @@ tags:
 - REST API
 ---
 ### The case
-Bob was sitting desperately in front of a huge amount of JUnit code intended to test the part he just refactored.<br/>
-The one who wrote the tests - to be honest it could have been any of us at a certain stage of our life - had the idea that JUnit is
+Bob was sitting desperately in front of a bunch of failing JUnit tests intended to verify the part of the application he just refactored.<br/>
+The one who wrote the them - to be honest it could have been any of us at a certain stage of our life - had the idea that JUnit is
 somewhat different than "normal" Java: <br/>
 there is no need for code conventions, clean code, comments or whatever that could make the maintainer's life easier.<br/>
-He assumed that this test will never be changed, it shall remain to improve code coverage till the end of time.
 
-Well, Bob spending the past twenty minutes of his life reverse engineering the test-code, silently looked around,
-realised that nobody is watching him and put a sad @Ignore annotation before the test.
-He was thinking about removing the test, but he just didn't want to hurt the inner feelings of any fellow developer.
+Well, Bob spending the past twenty minutes of his life reverse engineering the code, silently looked around,
+realised that nobody is watching him and put a sad @Ignore annotation before a test.<br/>
+He was thinking about removing the tests, but he just didn't want to hurt the inner feelings of any fellow developer.
 
 ### BDD is here to help
 Behaviour Driven Development was introduced by Dan North back in 2003.<br/>
