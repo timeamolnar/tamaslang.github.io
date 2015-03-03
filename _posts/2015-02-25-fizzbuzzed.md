@@ -9,7 +9,7 @@ It goes like this:
 <p>
 Write a program that prints the numbers from 1 to 100.<br/>
 But for multiples of three print “fizz” instead of the number and for the multiples of five print “buzz”.<br/>
-For numbers which are multiples of both three and five print “fizzbuzz”."
+For numbers which are multiples of both three and five print “fizzbuzz”.
 </p>
 </blockquote>
 
