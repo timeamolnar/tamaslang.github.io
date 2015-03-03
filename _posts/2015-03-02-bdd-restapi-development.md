@@ -47,7 +47,7 @@ In the integration tests it needs to be verified that all of the code works corr
 all of the combined code units work well in their environment and the module is ready to be integrated
 with external systems and resources.<br/>
 The external connections should be mocked for these tests to cut the dependencies and to avoid side effects of the tests.<br/>
-I reuse the component structure <a href="{{ site.url }}//2015/02/21/module_architecture/" target="_blank">from the previous post</a> to show the mocked components with orange:
+I reuse the component structure <a href="{{ site.url }}//2015/02/21/module_architecture/" target="_blank">from the previous post</a> and mark the mocked components with orange:
 ![placeholder]({{ site.url }}/assets/integration_testing.png "Integration Testing")
 
 ### Rest API
