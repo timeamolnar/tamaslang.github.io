@@ -51,11 +51,11 @@ I reuse the component structure <a href="{{ site.url }}//2015/02/21/module_archi
 ![placeholder]({{ site.url }}/assets/integration_testing.png "Integration Testing")
 
 ### Rest API
-Defining a REST API as application interface is what everybody do nowadays as it comes with certain benefits:
+Defining a REST API as application interface is what everybody is doing nowadays, it comes with certain benefits:
 <ul>
-    <li>simplify a very complex functionality around resources</li>
-    <li>reduce client server coupling</li>
-    <li>stateless communication</li>
+    <li>simplifies a very complex functionality around resources</li>
+    <li>reduces client server coupling</li>
+    <li>provides stateless communication</li>
     <li>easy to use / implement</li>
     <li>etc...</li>
 </ul>
