@@ -293,7 +293,7 @@ T.
 
 ##Further reading:
 <a href="http://dannorth.net/introducing-bdd/">Introducing BDD</a><br/>
-<a href="http://gojko.net/2015/02/25/how-to-get-the-most-out-of-given-when-then/" target="_blank">How to get the most out of Given-When-Then by Gojko Adzic</a><br/>
+<a href="http://gojko.net/2015/02/25/how-to-get-the-most-out-of-given-when-then/" target="_blank">How to get the most out of Given-When-Then</a><br/>
 <a href="https://github.com/cucumber/cucumber/wiki/Gherkin" target="_blank">Gherkin reference</a><br/>
 <a href="http://zsoltfabok.com/blog/2012/09/cucumber-jvm-web-with-spring-mvc/" target="_blank">Cucumber JVM: Web Application with Spring MVC</a><br/>
 <a href="http://martinfowler.com/bliki/GivenWhenThen.html">Given When Then</a>
