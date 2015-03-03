@@ -118,8 +118,8 @@ public class CommonRestCallStepDefs {
     /*...*/
 }
 ```
-Full source <a href="https://github.com/tamaslang/book-inventory-boot/blob/master/src/test/java/org/talangsoft/bookinventory/integration/CommonRestCallStepDefs.java"
-  target="_blank">on github</a>.
+<a href="https://github.com/tamaslang/book-inventory-boot/blob/master/src/test/java/org/talangsoft/bookinventory/integration/CommonRestCallStepDefs.java"
+  target="_blank">Full source</a>.
 
 The book inventory business specific test steps are defined in <strong>BookInventoryStepDefs.java</strong>.
 
@@ -138,8 +138,8 @@ public class BookInventoryStepDefs {
   /*...*/
 }
 ```
-Full source <a href="https://github.com/tamaslang/book-inventory-boot/blob/master/src/test/java/org/talangsoft/bookinventory/integration/BookInventoryStepDefs.java"
-  target="_blank">on github</a>.
+<a href="https://github.com/tamaslang/book-inventory-boot/blob/master/src/test/java/org/talangsoft/bookinventory/integration/BookInventoryStepDefs.java"
+  target="_blank">Full source</a>.
 
 ```java
 @RunWith(Cucumber.class)
