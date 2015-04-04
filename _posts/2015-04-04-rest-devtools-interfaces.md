@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Interfaces of Rest Devtools
+title: Common Interfaces of Rest Devtools
 ---
 
 ### Common interfaces
-Some specific purpose interfaces are defined as part of the development tools. <br/>
+Some specific purpose interfaces are defined as part of the <a href="http://www.talangsoft.org/2015/02/16/rest-devtools-introduction/" target="_blank">rest development tools</a>. <br/>
 These interfaces are serving the goal to help the usage of a common approach for general problems like database entity identifying, versioning.
 
 ### Identification:

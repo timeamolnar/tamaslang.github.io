@@ -13,7 +13,9 @@ Without going into details in this blog-entry here is a list of the areas where 
 
 * Logging, converting object to it's String representation<br/>
 * Logging, define logger for components by interface default method.<br/>
-* Interfaces, Indentifiable, CreatedTrackable, etc.<br/>
+* <a href="http://www.talangsoft.org/2015/04/04/rest-devtools-interfaces/" target="_blank">
+Interfaces, Indentifiable, CreatedTrackable, etc.<br/>
+</a>
 * Constants, ProfileConstants<br/>
 * Domain entity parent classes<br/>
 * Rest exception handling and resolving it to common ErrorDTO<br/>
