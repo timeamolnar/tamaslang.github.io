@@ -77,4 +77,4 @@ public interface Versionable {
 
 ### Summary
 These interfaces might ease up and standardise the solutions for the above mentioned common requirements. <br/>
-Using them however is not mandatory when the the rest-devtools library is included.
+Using them however is not mandatory when the rest-devtools library is included.
