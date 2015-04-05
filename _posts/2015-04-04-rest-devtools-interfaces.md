@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Common Interfaces of Rest Devtools
+
+tags:
+- rest devtools
 ---
 
 ### Common interfaces
