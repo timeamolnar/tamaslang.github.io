@@ -156,7 +156,7 @@ See a complete class configuration working in the book-inventory-boot project:
 
 ### The Generated Documentation
 
-The generated configuration will be in the target/apidoc directory as configured in the pom.xml.<br/>
+The generated configuration will be in the target/apidoc directory as configured in the pom.xml.
 It looks like this:
 
 ![placeholder]({{ site.url }}/assets/apidoc_example.png "Apidoc example")
