@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contract driven REST API Design
+title: Contract Driven REST API Design
 
 tags:
 - rest
