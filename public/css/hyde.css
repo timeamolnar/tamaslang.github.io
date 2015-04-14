@@ -24,6 +24,40 @@
  * Themes
  */
 
+.aboutText{
+  display:inline-block;
+  background: url(/assets/contact/profile.jpg) no-repeat;
+  padding-left:180px;
+  background-color: #f9f9f9;
+  border: 1px #a0a0a0 solid;
+}
+
+.clear{
+  clear: both;
+}
+
+.iconLinkedIn,.iconEmail,.iconTwitter,.iconGithub{
+  width: 64px;
+  height: 64px;
+  border: none;
+  display:inline-block;
+}
+
+.iconLinkedIn{
+  background: url(/assets/contact/linkedin.png) no-repeat;
+}
+
+.iconEmail{
+  background: url(/assets/contact/email.png) no-repeat;
+}
+
+.iconTwitter{
+  background: url(/assets/contact/twitter.png) no-repeat;
+}
+
+.iconGithub{
+  background: url(/assets/contact/github.png) no-repeat;
+}
 
 /*
  * Global resets
