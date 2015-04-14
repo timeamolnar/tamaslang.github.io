@@ -20,4 +20,4 @@ title: About
 <a href="https://uk.linkedin.com/in/tamaslang" class="iconLinkedIn" target="_blank"></a>
 <a href="javascript:linkTo_UnCryptMailto('nbjmup;ubnbt/mbohAubmbohtpgu/psh');" class="iconEmail" target="_blank"></a>
 <a href="https://twitter.com/TmsLng" class="iconTwitter" target="_blank"></a>
-<a href="https://twitter.com/TmsLng" class="iconGithub" target="_blank"></a>
+<a href="https://github.com/tamaslang" class="iconGithub" target="_blank"></a>
