@@ -22,11 +22,9 @@ In this case certain mapping will be necessary, and here is a Java8 example to d
 
 ## mapper function
 ```java
-private Function<Book,BookDTO> bookToBookDTO = new Function<Book, BookDTO>() {
-    public BookDTO apply(Book book) { return new BookDTO(book.getIsbn(), book.getTitle(),book.getAuthor());}
-};
+  private Function<Book,BookDTO> bookToBookDTO = book -> new BookDTO(book.getIsbn(), book.getTitle(),book.getAuthor());
 ```
-
+    
 ## usage:
 ```java
 // Map one entity:
