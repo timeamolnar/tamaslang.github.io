@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Error Handling in Rest API
+title: Error Handling in REST API
 
 tags:
 - rest devtools
@@ -27,13 +27,13 @@ In such cases we should use an error response entity together with the error sta
 ### Using an ErrorDTO
 The solution I am going to introduce is used in my favourite (and only) example application, the <a href="https://github.com/tamaslang/book-inventory-boot" target="_blank">book-inventory-boot</a>.<br/>
 It is using my rest-devtools library that is available in maven central but the solution itself can be implemented without the library as well. <br/>
-In the book inventory app a Rest API is provided to manage books and a possible error is that a book was not found with the given isbn. 
+In the book inventory app a REST API is provided to manage books and a possible error is that a book was not found with the given isbn. 
 Another type of error can be searching for a book with a non UTF-8 encoded string.
 
 The first case is a trivial 404 (NOT&#95;FOUND) and  the second one is a 400 (BAD&#95;REQUEST) which points clearly out that you should not repeat the request with the same parameters.   
 
 #### Classes for error handling in the library (rest-devtools)
-The RestError class stores the details of a Rest error: the error code, the message and the http status. 
+The RestError class stores the details: the error code, the message and the http status. 
 
 ```java
 public final class RestError {
@@ -53,7 +53,7 @@ public interface TranslatableToRestError {
 }
 ```
 
-The runtime exception is subclassed to represent any exception happening in our Rest API layer. <br/>
+The runtime exception is subclassed to represent any exception happening in our REST API layer. <br/>
 It contains a map "errorParams" to be able to pass on any additional information (e.g.: isbn for the book was not found).<br/>
 Note that it implements the TranslatableToRestError interface so it can store the RestError model.
  
